@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #fff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #fff;
+}
+
+.cover {
+    height: 300vh;
+    width: 100%;
+    bottom: 4px;
+    background: url('images/overlay.png'), url('images/cover.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.cover .navbar {
+    margin-top: 4%;
+}
+
+.cover .navbar-brand {
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-left: 10%;
+}
+
+.cover .nav {
+    margin-right: 10%;
+}
+
+.cover .nav li a {
+    color: #aaa;
+    font-size: 1.2em;
+}
+
+.cover .info {
+    margin-top: 15%;
+    transform: translateY(-15%);
+}
+
+.cover .info h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.cover .info p {
+    font-size: 2em;
+    font-weight: 500;
+    color: #aaa;
+    letter-spacing: 2px;
+}
+
+.cover .info a {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    background: #8d1de9;
+    padding: 10px 20px;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.cover .info a:hover {
+    background: #e2767f;
+}
+
+.container {
+    margin-top: 20%;
+}
+
+.container .h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.container .p1 {
+    font-size: 2.5em;
+    font-weight: 350;
+    letter-spacing: 2px;
+}
